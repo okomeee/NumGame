@@ -111,7 +111,6 @@ export default {
       var h = 0
       var b = 0
       var r = '不正解'
-      console.log('ansArray:' + ansArray)
       for (var i = 0; i < Number(this.digit); i++) {
         if (innArray[i] === ansArray[i]) {
           h += 1
